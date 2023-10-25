@@ -1,0 +1,12 @@
+union(){
+difference(){
+cylinder(h=9,r=12.5,$fn=120);
+translate([0,0,-1])cylinder(h=10,r=9.5/2,$fn=60);
+rotate(90,[0,0,1])translate([0,0,2.5])cylinder(h=10,r=13/2/cos(30),$fn=6);
+}
+difference(){
+translate([10,-6,0])cube([20,12,4]);
+translate([23,0,-1])cylinder(r=1.5,h=12,$fn=60);
+translate([23,-1.5,-1])cube([11,3,12]);
+}
+}

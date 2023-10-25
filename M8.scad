@@ -1,0 +1,1 @@
+linear_extrude(height=12.5,twist=-3600,slices=63)translate([0.6,0,0])circle(r=7.5/2,$fn=60);
